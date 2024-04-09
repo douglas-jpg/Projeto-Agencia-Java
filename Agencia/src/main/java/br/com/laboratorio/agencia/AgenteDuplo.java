@@ -18,4 +18,5 @@ public class AgenteDuplo extends Agente {
     public void receberMensagem(Mensagem mensagem){
         
     }
+    
 }
