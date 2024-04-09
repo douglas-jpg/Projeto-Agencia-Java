@@ -12,5 +12,34 @@ package br.com.laboratorio.agencia;
  * @author Yuri Sousa
  */
 public enum NivelHierarquico {
+    JUNIOR(1, "Junior"),
+    PLENO(2, "Pleno"),
+    SENIOR(3, "Senior"),
+    COMANDO(4, "Comando");
+    
+    int codigo;
+    String nivelHierarquico;
+    
+    NivelHierarquico(int codigo, String nivelHierarquico){
+        this.codigo = codigo;
+        this.nivelHierarquico = nivelHierarquico;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public String getNivelHierarquico() {
+        return nivelHierarquico;
+    }
+
+    public void setNivelHierarquico(String nivelHierarquico) {
+        this.nivelHierarquico = nivelHierarquico;
+    }
+    
     
 }

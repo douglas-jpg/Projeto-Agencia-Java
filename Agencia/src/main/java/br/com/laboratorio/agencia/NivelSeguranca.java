@@ -12,5 +12,34 @@ package br.com.laboratorio.agencia;
  * @author Yuri Sousa
  */
 public enum NivelSeguranca {
+    BAIXO(1, "Baixo"),
+    MEDIO(2, "Medio"),
+    ALTO(3, "Alto"),
+    TOPSECRET(4, "TopSecret");
+    
+    int codigo;
+    String nivelSeguranca;
+    
+    NivelSeguranca(int codigo, String nivelSeguranca){
+        this.codigo = codigo;
+        this.nivelSeguranca = nivelSeguranca;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public String getNivelSeguranca() {
+        return nivelSeguranca;
+    }
+
+    public void setNivelSeguranca(String nivelSeguranca) {
+        this.nivelSeguranca = nivelSeguranca;
+    }
+    
     
 }
