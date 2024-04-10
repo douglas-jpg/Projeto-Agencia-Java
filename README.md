@@ -57,7 +57,7 @@ Essas são ás seguintes pessoas que fizeram o projeto:
 
 <!-- <img src="imagem.png" alt="Exemplo imagem"> -->
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> Projeto feito na aula de laboratorio de programação orientado a objeto em grupo.
 ## 📝 Licença
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
