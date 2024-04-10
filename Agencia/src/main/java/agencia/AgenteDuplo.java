@@ -1,5 +1,5 @@
 
-package br.com.laboratorio.agencia;
+package agencia;
 
 public class AgenteDuplo extends Agente {
     private AgenciaInteligencia agenciaInteligenciaVerdadeira;

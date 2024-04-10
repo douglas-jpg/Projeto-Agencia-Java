@@ -1,5 +1,5 @@
 
-package br.com.laboratorio.agencia;
+package agencia;
 
 /**
  * @author Leticia De Lima
